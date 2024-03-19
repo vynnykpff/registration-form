@@ -1,0 +1,40 @@
+.navigationWrapper {
+	display: flex;
+	gap: 10px;
+}
+
+.usersList {
+	display: flex;
+	justify-content: center;
+}
+
+.usersListItem {
+	list-style: none;
+	cursor: pointer;
+}
+
+.editUserPayload {
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	padding: 5px 10px;
+	width: 250px;
+}
+
+.button {
+	margin-right: -5px;
+}
+
+.userPayload {
+	font-size: 18px;
+}
+
+.removeButton {
+	margin-left: 10px;
+}
+
+.usersNotFound {
+	font-size: 18px;
+	list-style: none;
+	font-weight: 600;
+}
